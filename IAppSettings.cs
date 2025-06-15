@@ -8,10 +8,10 @@ namespace ncdf.de;
 
 public interface IAppSettings
 {
-    int WindowHeight { get; }
-    int WindowWidt { get; }
-    string OpcServerIp { get; }
-    string DatabaseIp { get; }
+    int WindowHeight { get; set; }
+    int WindowWidth { get; set; }
+    string OpcServerIp { get; set; }
+    string DatabaseIp { get; set; }
 }
 
 /**
